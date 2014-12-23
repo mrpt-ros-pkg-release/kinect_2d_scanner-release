@@ -1,0 +1,12 @@
+Source: ros-indigo-kinect-2d-scanner
+Section: misc
+Priority: extra
+Maintainer: Jose-Luis Blanco-Claraco <jlblanco@ual.es>
+Build-Depends: debhelper (>= 9.0.0), libmrpt-dev, mrpt-apps, ros-indigo-catkin, ros-indigo-driver-base, ros-indigo-dynamic-reconfigure, ros-indigo-mrpt-bridge, ros-indigo-roscpp
+Homepage: http://wiki.ros.org/kinect_2d_scanner
+Standards-Version: 3.9.2
+
+Package: ros-indigo-kinect-2d-scanner
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libmrpt-dev, mrpt-apps, ros-indigo-dynamic-reconfigure, ros-indigo-mrpt-bridge
+Description: Kinect grabber as 2D laser scans
