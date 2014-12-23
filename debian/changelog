@@ -1,0 +1,10 @@
+ros-indigo-kinect-2d-scanner (0.1.1-0trusty) trusty; urgency=high
+
+  * fix wrong #include's
+  * Move code from old repository (mrpt_navigation)
+  * Initial release.
+  * Contributors: Jose Luis Blanco, Jose-Luis Blanco-Claraco
+
+ -- Jose-Luis Blanco-Claraco <jlblanco@ual.es>  Mon, 22 Dec 2014 23:00:00 -0000
+
+
